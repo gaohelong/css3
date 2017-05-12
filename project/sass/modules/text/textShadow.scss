@@ -2,22 +2,66 @@
 
 // 霓虹灯字.
 #neon {
-    font: bold 100px/1.5 georgia,sans-serif;
     @include text-shadow(
         0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 
         0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 
         0 0 100px #ff00de, 0 0 150px #ff00de
     );
-    text-align: center;
 }
 
 // 火焰字.
 #fire {
-    font: bold 100px/1.5 arial,sans-serif;
     @include text-shadow(
         0 0 5px #fff, 0 0 20px #fefcc9, 10px -10px 30px #feec85,
         -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606,
         0 -80px 70px #973716, 10px -90px 80px #451b0e
     );
-    text-align: center;
+}
+
+// 浮雕字.
+@for $i from 0 to 4 {
+    #cameo-#{$i} {
+        color: $black;
+        @include text-shadow(#{$i * 2}px 1px #fff);
+    }
+}
+
+// 浮雕字.
+#cameo-5 {
+    color: $black;
+    @include text-shadow(-1px -1px 0 #fff, 1px 1px 0 #333, 1px 1px 0 #444);
+}
+
+// 模糊效果.
+#vague-1 {
+    color: $transparent;
+    @include text-shadow(0 0 10px #fff);
+}
+
+#vague-2 {
+    color: $transparent;
+    @include text-shadow(0 0 6px #F96, -1px -1px  #FFF, 1px -1px  #444);
+}
+
+// 轮廓效果.
+#outline-1 {
+    color: $black;
+    @include text-shadow(1px 1px #fff, -1px -1px #fff);
+}
+
+// 3D效果.
+#d3-1 {
+    color: $red;
+    @include text-shadow(9px 0px rgba($white, 0.9));
+}
+
+#d3-2 {
+    color: $red;
+    @include text-shadow(-9px 0px rgba($white, 0.9));
+}
+
+// shadow多重效果.
+#sd-1 {
+    color: $red;
+    @include text-shadow(50px 50px 5px rgba(#eee, 0.5), 50px -50px 5px rgba(#c3c, 0.5));
 }

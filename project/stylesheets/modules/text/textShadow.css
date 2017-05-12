@@ -1,11 +1,62 @@
 #neon {
-  font: bold 100px/1.5 georgia,sans-serif;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
-  text-align: center;
 }
 
 #fire {
-  font: bold 100px/1.5 arial,sans-serif;
   text-shadow: 0 0 5px #fff, 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px #451b0e;
-  text-align: center;
+}
+
+#cameo-0 {
+  color: #000;
+  text-shadow: 0px 1px #fff;
+}
+
+#cameo-1 {
+  color: #000;
+  text-shadow: 2px 1px #fff;
+}
+
+#cameo-2 {
+  color: #000;
+  text-shadow: 4px 1px #fff;
+}
+
+#cameo-3 {
+  color: #000;
+  text-shadow: 6px 1px #fff;
+}
+
+#cameo-5 {
+  color: #000;
+  text-shadow: -1px -1px 0 #fff, 1px 1px 0 #333, 1px 1px 0 #444;
+}
+
+#vague-1 {
+  color: transparent;
+  text-shadow: 0 0 10px #fff;
+}
+
+#vague-2 {
+  color: transparent;
+  text-shadow: 0 0 6px #F96, -1px -1px #FFF, 1px -1px #444;
+}
+
+#outline-1 {
+  color: #000;
+  text-shadow: 1px 1px #fff, -1px -1px #fff;
+}
+
+#d3-1 {
+  color: #d9534f;
+  text-shadow: 9px 0px rgba(255, 255, 255, 0.9);
+}
+
+#d3-2 {
+  color: #d9534f;
+  text-shadow: -9px 0px rgba(255, 255, 255, 0.9);
+}
+
+#sd-1 {
+  color: #d9534f;
+  text-shadow: 50px 50px 5px rgba(238, 238, 238, 0.5), 50px -50px 5px rgba(204, 51, 204, 0.5);
 }
