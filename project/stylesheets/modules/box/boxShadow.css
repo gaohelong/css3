@@ -1,0 +1,23 @@
+#box-shadow, #box-shadow-1 {
+  width: 300px;
+  line-height: 30px;
+  margin-top: 100px;
+  margin-left: 100px;
+  box-shadow: 0 0 5px 20px rgba(255, 0, 0, 0.6), 0 0 5px 40px rgba(0, 182, 0, 0.6), 0 0 5px 60px rgba(255, 255, 0, 0.6);
+  -ms-box-shadow: 0 0 5px 20px rgba(255, 0, 0, 0.6), 0 0 5px 40px rgba(0, 182, 0, 0.6), 0 0 5px 60px rgba(255, 255, 0, 0.6);
+  -moz-box-shadow: 0 0 5px 20px rgba(255, 0, 0, 0.6), 0 0 5px 40px rgba(0, 182, 0, 0.6), 0 0 5px 60px rgba(255, 255, 0, 0.6);
+  -webkit-box-shadow: 0 0 5px 20px rgba(255, 0, 0, 0.6), 0 0 5px 40px rgba(0, 182, 0, 0.6), 0 0 5px 60px rgba(255, 255, 0, 0.6);
+  font-size: 12px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+#box-shadow-1 {
+  margin-top: 150px;
+  box-shadow: 0 0 5px 15px rgba(255, 0, 0, 0.6), 0 0 5px 30px rgba(0, 182, 0, 0.6), 0 0 5px 45px rgba(255, 255, 0, 0.6);
+  -ms-box-shadow: 0 0 5px 15px rgba(255, 0, 0, 0.6), 0 0 5px 30px rgba(0, 182, 0, 0.6), 0 0 5px 45px rgba(255, 255, 0, 0.6);
+  -moz-box-shadow: 0 0 5px 15px rgba(255, 0, 0, 0.6), 0 0 5px 30px rgba(0, 182, 0, 0.6), 0 0 5px 45px rgba(255, 255, 0, 0.6);
+  -webkit-box-shadow: 0 0 5px 15px rgba(255, 0, 0, 0.6), 0 0 5px 30px rgba(0, 182, 0, 0.6), 0 0 5px 45px rgba(255, 255, 0, 0.6);
+  border-radius: 0;
+}
